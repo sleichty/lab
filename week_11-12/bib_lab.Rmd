@@ -1,0 +1,20 @@
+---
+title: "bib_lab"
+author: "Sarah Leichty"
+date: "November 9, 2016"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#My favorite paper is @misc{brevik2012soils}.
+
+#References
+@misc{brevik2012soils,
+  title={Soils and human health},
+  author={Brevik, Eric C and Burgess, Lynn C},
+  year={2012},
+  publisher={CRC Press}
+}
+
